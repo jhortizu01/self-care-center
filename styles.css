@@ -41,7 +41,8 @@ h2 {
 
 h3 {
   margin: auto;
-  margin-bottom: 150px;
+  margin-bottom: auto;
+  margin-top: 50px;
   text-align: center;
   color: black;
 
@@ -151,6 +152,8 @@ h3 {
 .messages-block {
   position: relative;
   justify-content: center;
+  text-align: center;
+  vertical-align: bottom;
   width: 60%;
   height: 20%;
   margin: auto;
@@ -164,4 +167,22 @@ h3 {
   position: relative;
   width: 100px;
   height: auto;
+}
+
+.login-page {
+  flex-direction: column;
+  justify-content: center;
+
+}
+
+.sign-in {
+  position: relative;
+  justify-content: center;
+  width: 300px;
+  border: 15px solid white;
+  background-color: white;
+  color: black;
+  padding: 50px;
+  border-radius: 10px;
+  margin: auto;
 }

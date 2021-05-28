@@ -2,15 +2,22 @@
 var imgHolder = document.querySelector(".img-holder");
 var newMessageButton = document.querySelector(".new-message");
 var randomMessages = document.querySelector(".random-messages")
-var chooseAffirmations = document.getElementById("affirmations").checked
-
+var chooseAffirmations = document.getElementById("affirmations")
+var chooseMantras = document.getElementById("mantras")
+var mainPage = document.querySelector('.the-whole-page')
 
 // 👂🏽Event Listeners 👂
+window.addEventListener("load", hideMainPage);
 window.addEventListener("load", hideSaying);
 newMessageButton.addEventListener("click", hideImage)
 newMessageButton.addEventListener("click", showSaying)
-newMessageButton.addEventListener("click", showAffirmations)
+newMessageButton.addEventListener("click", showSayings)
+
 // 🤷🏽‍♀️ Functions 🤷🏽‍♀️
+function hideMainPage() {
+  mainPage.classList.add("hidden")
+}
+
 function getRandomIndex(array) {
   return Math.floor(Math.random() * array.length);
 }
@@ -27,18 +34,20 @@ function showSaying(){
   randomMessages.classList.remove("hidden")
 }
 
-function checkAffirmations() {
-    document.getElementById("affirmations").checked = true;
-}
-
-function uncheckAffirmations() {
-    document.getElementById("affirmations").checked = false;
-}
-
-function showAffirmations() {
-  if (chooseAffirmations === true);
+function showSayings() {
+  if (chooseAffirmations.checked === true){
   randomMessages.textContent = affirmations[getRandomIndex(affirmations)]
+  } else if (chooseMantras.checked === true) {
+  randomMessages.textContent = mantras[getRandomIndex(mantras)]
+  }
 }
+
+
+
+
+
+
+
 
 
 

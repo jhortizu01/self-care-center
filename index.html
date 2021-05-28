@@ -5,25 +5,36 @@
     <link href="https://fonts.googleapis.com/css2?family=Quicksand:wght@400;700&display=swap" rel="stylesheet">
   </head>
   <body>
-    <h1>  ✨ Self Care Center ✨ </h1>
-    <h2> Which type of message? </h2>
-    <nav class='items'>
-      <div class = container>
-        <label class="container">affirmations
-          <input type="radio" id="affirmations" checked="checked" name="radio">
-          <span class="checkmark"</span>
-        </label>
-        <label class="container">mantras
-            <input type="radio" id="mantras" name="radio">
-            <span class="checkmark"></span>
-          </div>
-      <button class="new-message">Receive Message</button>
-    </nav>
+    <main class="the-whole-page">
+      <h1>  ✨ Self Care Center ✨ </h1>
+      <h2> Which type of message? </h2>
+      <nav class='items'>
+        <div class = container>
+          <label class="container">affirmations
+            <input type="radio" id="affirmations" checked="checked" name="radio">
+            <span class="checkmark"</span>
+          </label>
+          <label class="container">mantras
+              <input type="radio" id="mantras" name="radio">
+              <span class="checkmark"></span>
+            </div>
+        <button class="new-message">Receive Message</button>
+      </nav>
 
-    <article class="messages-block">
-      <img class="img-holder" src="./assets/meditate.svg" alt="Meditative Image">
-      <h3 class="random-messages">Random Message Here</h3>
-    </article>
+      <article class="messages-block">
+        <img class="img-holder" src="./assets/meditate.svg" alt="Meditative Image">
+        <h3 class="random-messages">Random Message Here</h3>
+      </article>
+    </main>
+
+    <form class="login-page">
+      <h1> ✨ Welcome to the Self Care Center ✨</h1>
+      <div class="sign-in">
+        <label for="username">Name</label>
+        <input type="text" id="username" <br>
+        <input type="submit" value="Log In">
+      </div>
+    </form>
 
     <script type="text/javascript" src="main.js"></script>
     <script src="./main.js"></script>
