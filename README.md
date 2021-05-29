@@ -2,7 +2,7 @@
 
 ##Introduction
 
-![starfish meditating](ihttps://media1.tenor.com/images/ca2f223ec44cf9adf5ec2a23cc28a8d0/tenor.gif?itemid=5888486)
+![starfish meditating](https://i.pinimg.com/originals/9f/27/c7/9f27c75e9e616dc4e44922dc4100efb4.gif)
 
 The Self Care Center is a webpage that gives the user randomly generated mantras or affirmations.
 
