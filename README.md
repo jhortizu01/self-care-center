@@ -1,24 +1,37 @@
 # Self Care Center
-## Overview
-How can I care for myself? One way is with affirmations and mantras!
-Affirmations are thoughts of positive self-empowerment, meant to assert your self-worth.
-Mantras are repetive phrases that are repeated again and again during mindfulness practices. Your challenge is to build an app that helps users remind themselves of their inherent value!
 
-This Solo Challenge gives students and instructors the opportunity to get a pulse on where you are with the foundational concepts of Module 1 curriculum. Students should use this as an opportunity to challenge themselves and work completely independently. Google can (and probably should!) be used, but any other code base should not be referenced. Instructors will be able to use your work, both completion of functionality and code quality, to determine where you stand and if you are behind for this point in the module, provide supports to intervene.
+##Introduction
 
-The spec for this project can be found [here](https://frontend.turing.io/projects/module-1/self-care-center.html). 
+![starfish meditating](ihttps://media1.tenor.com/images/ca2f223ec44cf9adf5ec2a23cc28a8d0/tenor.gif?itemid=5888486)
 
-## Learning Goals
+The Self Care Center is a webpage that gives the user randomly generated mantras or affirmations.
 
-- Gain experience building an application that utilizes HTML, CSS and JavaScript
-- Write HTML and CSS to match a provided comp
-- Understand how to listen to and respond to user events
-- Individualize your programming skill set
+## Technologies
 
-## Setup
+- JavaScript
+- HTML
+- CSS
 
-- Fork this project to your own Github account
-- Clone the repository to your local machine
-- `cd` into the project
-- Read this README thoroughly, then begin working!
+## Features
 
+- On page load, it brings the user to a screen where they input their name. Once they input their name, the user will click submit and it will bring them to the next page.
+- The next page that comes up is the Self Care Center where it will display the greeting "Welcome to your new inner-calm (insert name here)".
+- The user has the option to choose between mantras and affirmations. Depending on which one they click, will return randomly selected quotes from either category.
+
+## Deployed Page
+
+Visit the Self Care Center here: https://jhortizu01.github.io/self-care-center/
+
+## Set Up
+
+1. Fork this repo  
+2. Clone the repo to your local machine
+3. View the project in the browser by running open index.html in your terminal
+
+
+## Sources
+  - [MDN](http://developer.mozilla.org/en-US/)
+  - [W3Schools](https://www.w3schools.com/)
+
+## Project Specs
+  - The project spec & rubric can be found [here](https://frontend.turing.edu/projects/module-1/self-care-center.html)
