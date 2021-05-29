@@ -1,13 +1,13 @@
 // 👇🏽 Variables 👇🏽
-var imgHolder = document.querySelector(".img-holder");
-var newMessageButton = document.querySelector(".new-message");
-var randomMessages = document.querySelector(".random-messages")
 var chooseAffirmations = document.getElementById("affirmations")
 var chooseMantras = document.getElementById("mantras")
-var mainPage = document.querySelector(".the-whole-page")
-var loginPage = document.querySelector(".login-page")
-var submit = document.getElementById("login-button")
+var imgHolder = document.querySelector(".img-holder");
 var loginName = document.getElementById("login-name")
+var loginPage = document.querySelector(".login-page")
+var mainPage = document.querySelector(".the-whole-page")
+var newMessageButton = document.querySelector(".new-message");
+var randomMessages = document.querySelector(".random-messages")
+var submit = document.getElementById("login-button")
 var welcome = document.querySelector(".welcome")
 
 
@@ -28,7 +28,6 @@ function letsLogIn(){
   var theirName = loginName.value
   welcome.innerText = `Welcome to your new inner-calm, ${theirName} !`;
 }
-
 
 function hideMainPage() {
   mainPage.classList.add("hidden")
@@ -57,15 +56,3 @@ function showRandomSayings() {
   randomMessages.textContent = mantras[getRandomIndex(mantras)]
   }
 }
-
-
-
-
-
-
-
-
-/// when affirmation is checked
-///click newMessageButton
-///pull from affirmations array
-///display onto page
