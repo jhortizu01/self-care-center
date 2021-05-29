@@ -5,9 +5,10 @@
     <link href="https://fonts.googleapis.com/css2?family=Quicksand:wght@400;700&display=swap" rel="stylesheet">
   </head>
   <body>
-    <main class="the-whole-page">
+    <main class="the-whole-page hidden">
       <h1>  ✨ Self Care Center ✨ </h1>
-      <h2> Which type of message? </h2>
+      <h2 class="welcome"> </h2>
+      <h3> Which type of message? </h3>
       <nav class='items'>
         <div class = container>
           <label class="container">affirmations
@@ -23,18 +24,19 @@
 
       <article class="messages-block">
         <img class="img-holder" src="./assets/meditate.svg" alt="Meditative Image">
-        <h3 class="random-messages">Random Message Here</h3>
+        <h4 class="random-messages">Random Message Here</h4>
       </article>
     </main>
 
     <form class="login-page">
       <h1> ✨ Welcome to the Self Care Center ✨</h1>
       <div class="sign-in">
-        <label for="username">Name</label>
-        <input type="text" id="username" <br>
-        <input type="submit" value="Log In">
+        <label>Enter You Name</label><br><br>
+        <input type="text" id="login-name"><br><br>
+        <button id="login-button">Submit</button>
       </div>
     </form>
+
 
     <script type="text/javascript" src="main.js"></script>
     <script src="./main.js"></script>
