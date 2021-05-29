@@ -1,6 +1,6 @@
 # Self Care Center
 
-##Introduction
+## Introduction
 
 ![starfish meditating](https://i.pinimg.com/originals/9f/27/c7/9f27c75e9e616dc4e44922dc4100efb4.gif)
 
